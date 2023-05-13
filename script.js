@@ -34,7 +34,8 @@ function removeFailedStudent() {
   //Write your code here, just console.log
   console.log(arr.filter(function(element){
     return element.marks>=50;
-  }));
+  }))
+  ;
 }
 
 function concatenateArray() {
@@ -45,4 +46,5 @@ function concatenateArray() {
     { id: 7, name: "owen", age: "19", marks: 90 },
   ];
   console.log(arr.concat(newArr));
+  
 }
